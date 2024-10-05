@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D9555972CB18BDA0099641E /* SegmentControlItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9555962CB18BDA0099641E /* SegmentControlItem.swift */; };
+		1D9555992CB18BF70099641E /* SegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9555982CB18BF70099641E /* SegmentControl.swift */; };
 		1DA32BD72CB0359F00B31CB5 /* SwiftUISegmentedControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA32BD62CB0359F00B31CB5 /* SwiftUISegmentedControlApp.swift */; };
 		1DA32BD92CB0359F00B31CB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA32BD82CB0359F00B31CB5 /* ContentView.swift */; };
 		1DA32BDB2CB035A000B31CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA32BDA2CB035A000B31CB5 /* Assets.xcassets */; };
@@ -14,6 +16,9 @@
 		1DA32BE82CB035A000B31CB5 /* SwiftUISegmentedControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA32BE72CB035A000B31CB5 /* SwiftUISegmentedControlTests.swift */; };
 		1DA32BF22CB035A000B31CB5 /* SwiftUISegmentedControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA32BF12CB035A000B31CB5 /* SwiftUISegmentedControlUITests.swift */; };
 		1DA32BF42CB035A000B31CB5 /* SwiftUISegmentedControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA32BF32CB035A000B31CB5 /* SwiftUISegmentedControlUITestsLaunchTests.swift */; };
+		1DA32C022CB03CAE00B31CB5 /* CustomSegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA32C012CB03CAE00B31CB5 /* CustomSegmentedView.swift */; };
+		1DA32C042CB0417E00B31CB5 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA32C032CB0417E00B31CB5 /* CustomSegmentedControl.swift */; };
+		1DA32C062CB041B100B31CB5 /* SegmentedControlViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA32C052CB041B100B31CB5 /* SegmentedControlViewBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D9555962CB18BDA0099641E /* SegmentControlItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlItem.swift; sourceTree = "<group>"; };
+		1D9555982CB18BF70099641E /* SegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControl.swift; sourceTree = "<group>"; };
 		1DA32BD32CB0359F00B31CB5 /* SwiftUISegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA32BD62CB0359F00B31CB5 /* SwiftUISegmentedControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISegmentedControlApp.swift; sourceTree = "<group>"; };
 		1DA32BD82CB0359F00B31CB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,9 @@
 		1DA32BED2CB035A000B31CB5 /* SwiftUISegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA32BF12CB035A000B31CB5 /* SwiftUISegmentedControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISegmentedControlUITests.swift; sourceTree = "<group>"; };
 		1DA32BF32CB035A000B31CB5 /* SwiftUISegmentedControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISegmentedControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DA32C012CB03CAE00B31CB5 /* CustomSegmentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedView.swift; sourceTree = "<group>"; };
+		1DA32C032CB0417E00B31CB5 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		1DA32C052CB041B100B31CB5 /* SegmentedControlViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlViewBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 		1DA32BD52CB0359F00B31CB5 /* SwiftUISegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
+				1DA32C002CB03C9A00B31CB5 /* views */,
 				1DA32BD62CB0359F00B31CB5 /* SwiftUISegmentedControlApp.swift */,
 				1DA32BD82CB0359F00B31CB5 /* ContentView.swift */,
 				1DA32BDA2CB035A000B31CB5 /* Assets.xcassets */,
@@ -125,6 +136,18 @@
 				1DA32BF32CB035A000B31CB5 /* SwiftUISegmentedControlUITestsLaunchTests.swift */,
 			);
 			path = SwiftUISegmentedControlUITests;
+			sourceTree = "<group>";
+		};
+		1DA32C002CB03C9A00B31CB5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				1DA32C012CB03CAE00B31CB5 /* CustomSegmentedView.swift */,
+				1DA32C032CB0417E00B31CB5 /* CustomSegmentedControl.swift */,
+				1DA32C052CB041B100B31CB5 /* SegmentedControlViewBackground.swift */,
+				1D9555962CB18BDA0099641E /* SegmentControlItem.swift */,
+				1D9555982CB18BF70099641E /* SegmentControl.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA32C062CB041B100B31CB5 /* SegmentedControlViewBackground.swift in Sources */,
+				1DA32C022CB03CAE00B31CB5 /* CustomSegmentedView.swift in Sources */,
 				1DA32BD92CB0359F00B31CB5 /* ContentView.swift in Sources */,
 				1DA32BD72CB0359F00B31CB5 /* SwiftUISegmentedControlApp.swift in Sources */,
+				1D9555972CB18BDA0099641E /* SegmentControlItem.swift in Sources */,
+				1D9555992CB18BF70099641E /* SegmentControl.swift in Sources */,
+				1DA32C042CB0417E00B31CB5 /* CustomSegmentedControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
